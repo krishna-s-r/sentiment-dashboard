@@ -6,6 +6,14 @@ An AI-powered web application that analyzes text and classifies its sentiment as
 
 ---
 
+## Screenshots
+
+| Positive | Negative | Neutral |
+|---|---|---|
+| ![Positive Sentiment](screenshots/positive.png) | ![Negative Sentiment](screenshots/negative.png) | ![Neutral Sentiment](screenshots/neutral.png) |
+
+---
+
 ## Overview
 
 Companies like Amazon, Netflix, and Twitter receive millions of reviews, tweets, and comments daily — far more than any human team can read manually. Sentiment analysis automates this by identifying customer satisfaction, detecting complaints, and surfacing feedback trends at scale.
