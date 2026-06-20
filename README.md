@@ -32,6 +32,19 @@ This project builds a sentiment classifier trained on real-world airline tweets 
 | Classes | Positive / Neutral / Negative |
 | Type | Real customer tweets about US airlines |
 
+### Optional TweetClaw export preparation
+
+Use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) exports as reviewed
+source material when you want fresh X/Twitter examples in the same schema as
+`cleaned_tweets.csv`.
+
+```bash
+python tweetclaw_to_cleaned_tweets.py exports/tweetclaw-airline.jsonl tweetclaw_labeled_tweets.csv --sentiment negative
+```
+
+Only append rows after reviewing the exported posts and choosing the
+`positive`, `neutral`, or `negative` label they should carry in training data.
+
 ---
 
 ## Pipeline
